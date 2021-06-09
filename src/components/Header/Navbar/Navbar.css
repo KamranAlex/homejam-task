@@ -1,0 +1,15 @@
+.stickyNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+}
+.topNav {
+  background: rgba(0, 0, 0, 0.043);
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.navbar img {
+  height: 44px;
+}
