@@ -26,50 +26,52 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className='row justify-content-center'>
-            <div className='col-md-3 circle'>
-              <div className='circle1'>
-                <div className='text-center'>
-                  <div className='content1'>
-                    <FontAwesomeIcon
-                      icon={faHeart}
-                      style={{ color: '#FFF', fontSize: '22px' }}
-                    />
-                    <p>0</p>
-                    <span>Label</span>
+          <div className='container'>
+            <div className='row justify-content-center'>
+              <div className='col-md-3 circle'>
+                <div className='circle1'>
+                  <div className='text-center'>
+                    <div className='content1'>
+                      <FontAwesomeIcon
+                        icon={faHeart}
+                        style={{ color: '#FFF', fontSize: '22px' }}
+                      />
+                      <p>0</p>
+                      <span>Label</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='col-md-3 circle'>
-              <div className='circle2'>
-                <div className='text-center'>
-                  <div className='content2'>
-                    <img src={Calender} alt='' />
-                    <p>0</p>
-                    <span>Label</span>
+              <div className='col-md-3 circle'>
+                <div className='circle2'>
+                  <div className='text-center'>
+                    <div className='content2'>
+                      <img src={Calender} alt='' />
+                      <p>0</p>
+                      <span>Label</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='col-md-3 circle'>
-              <div className='circle3'>
-                <div className='text-center'>
-                  <div className='content3'>
-                    <img src={Calender} alt='' />
-                    <p>0</p>
-                    <span>Label</span>
+              <div className='col-md-3 circle'>
+                <div className='circle3'>
+                  <div className='text-center'>
+                    <div className='content3'>
+                      <img src={Calender} alt='' />
+                      <p>0</p>
+                      <span>Label</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='col-md-3 circle'>
-              <div className='circle4'>
-                <div className='text-center'>
-                  <div className='content4'>
-                    <img src={Calender} alt='' />
-                    <p>0</p>
-                    <span>Label</span>
+              <div className='col-md-3 circle'>
+                <div className='circle4'>
+                  <div className='text-center'>
+                    <div className='content4'>
+                      <img src={Calender} alt='' />
+                      <p>0</p>
+                      <span>Label</span>
+                    </div>
                   </div>
                 </div>
               </div>

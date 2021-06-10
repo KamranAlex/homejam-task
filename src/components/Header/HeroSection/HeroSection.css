@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  padding-top: 60px;
   width: 100%;
 }
 .topBanner .content-sec {
@@ -66,24 +65,23 @@
 .circle {
   margin: 0 auto 30px;
 }
-
-.circle2,
-.circle3,
-.circle4 {
-  width: 11em;
-  height: 11em;
-  border: 1px solid #d3d3d3;
-  border-radius: 50%;
-}
 .circle1 {
-  width: 11em;
-  height: 11em;
+  width: 13em;
+  height: 13em;
   position: relative;
   border-radius: 50%;
   border-top: 1px solid #d3d3d3;
   border-right: 1px solid #dd4cac;
   border-bottom: 1px solid #dd4cac;
   border-left: 1px solid #d3d3d3;
+}
+.circle2,
+.circle3,
+.circle4 {
+  width: 13em;
+  height: 13em;
+  border: 1px solid #d3d3d3;
+  border-radius: 50%;
 }
 
 .content1 {
@@ -94,20 +92,20 @@
 }
 .content2 {
   position: absolute;
-  left: 0;
-  right: 25%;
+  left: 6.25%;
+  right: 17.23%;
   top: 25%;
 }
 .content3 {
   position: absolute;
-  left: 0;
-  right: 25%;
+  left: 6.25%;
+  right: 17.23%;
   top: 25%;
 }
 .content4 {
   position: absolute;
-  left: 0;
-  right: 25%;
+  left: 6.25%;
+  right: 17.23%;
   top: 25%;
 }
 .content2 img,
