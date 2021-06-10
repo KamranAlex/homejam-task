@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './HeroSection.css';
-import './circle.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import Calender from '../../../images/calender.png';

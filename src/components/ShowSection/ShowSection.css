@@ -1,0 +1,74 @@
+.sectionTitle {
+  color: white;
+  font-size: 32px;
+  font-family: 'Libre Baskerville', serif;
+  position: relative;
+  margin-bottom: 42px;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 68px;
+  height: 3px;
+  border-radius: 16px;
+  background: #0259eb;
+}
+.card,
+.card-body,
+.card-footer {
+  background-color: #111229 !important;
+}
+.card {
+  background-color: #111229 !important;
+  border-radius: 10px !important;
+  z-index: 1;
+}
+.card::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  height: 100%;
+  background: linear-gradient(163.41deg, #301a68 0.11%, #234c97 170.69%);
+  border-radius: 8px;
+  width: 100%;
+  z-index: -1;
+}
+.card-img-top {
+  height: 230px;
+}
+.card-body a {
+  background: #e5c558;
+  color: #000;
+  border-radius: 1px;
+  padding: 3px 9px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.card-body a:hover {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.card-title {
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.card-footer .coupon {
+  padding: 0 10px;
+  border-left: 1px solid rgba(87, 87, 87, 0.808);
+}
