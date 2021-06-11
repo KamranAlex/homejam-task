@@ -4,7 +4,7 @@ import './Reviews.css';
 
 const Reviews = () => {
   return (
-    <div className='container review-section h-auto pt-4 pb-5'>
+    <div className='container review-section h-auto py-5'>
       <div className='d-flex justify-content-between'>
         <h2 className='sectionTitle'>Reviews</h2>
         <div className='reviewNav'>
