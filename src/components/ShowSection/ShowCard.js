@@ -10,11 +10,11 @@ import { faReceipt } from '@fortawesome/free-solid-svg-icons';
 const ShowCard = () => {
   return (
     <div className='card-deck mt-3 mb-4'>
-      <div className='card'>
+      <div className='card show-card'>
         <img className='card-img-top' src={Benny} alt='Card image cap' />
-        <div className='card-body'>
+        <div className='card-body show-card-body'>
           <a href='/'>Folk</a>
-          <h5 className='card-title mt-3'>Benny Dayal</h5>
+          <h5 className='card-title mt-4'>Benny Dayal</h5>
         </div>
         <div className='card-footer d-flex justify-content-between'>
           <div className='info'>
@@ -33,11 +33,11 @@ const ShowCard = () => {
           </div>
         </div>
       </div>
-      <div className='card'>
+      <div className='card show-card'>
         <img className='card-img-top' src={Vijay} alt='Card image cap' />
-        <div className='card-body'>
+        <div className='card-body show-card-body'>
           <a href='/'>Bollywood</a>
-          <h5 className='card-title mt-3'>Vijay Yesudas</h5>
+          <h5 className='card-title mt-4'>Vijay Yesudas</h5>
         </div>
         <div className='card-footer d-flex justify-content-between'>
           <div className='info'>
@@ -56,11 +56,11 @@ const ShowCard = () => {
           </div>
         </div>
       </div>
-      <div className='card'>
+      <div className='card show-card'>
         <img className='card-img-top' src={Andrea} alt='Card image cap' />
-        <div className='card-body'>
+        <div className='card-body show-card-body'>
           <a href='/'>Folk</a>
-          <h5 className='card-title mt-3'>Andrea Jeremiah</h5>
+          <h5 className='card-title mt-4'>Andrea Jeremiah</h5>
         </div>
         <div className='card-footer d-flex justify-content-between'>
           <div className='info'>
@@ -79,11 +79,11 @@ const ShowCard = () => {
           </div>
         </div>
       </div>
-      <div className='card'>
+      <div className='card show-card'>
         <img className='card-img-top' src={Shilpa} alt='Card image cap' />
-        <div className='card-body'>
+        <div className='card-body show-card-body'>
           <a href='/'>Folk</a>
-          <h5 className='card-title mt-3'>Shilpa Rao</h5>
+          <h5 className='card-title mt-4'>Shilpa Rao</h5>
         </div>
         <div className='card-footer d-flex justify-content-between'>
           <div className='info'>

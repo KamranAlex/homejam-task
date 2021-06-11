@@ -25,17 +25,17 @@
   font-weight: 600;
   font-size: 16px;
 }
-.card,
-.card-body,
+.show-card,
+.show-card-body,
 .card-footer {
   background-color: #111229 !important;
 }
-.card {
+.show-card {
   background-color: #111229 !important;
   border-radius: 10px !important;
   z-index: 1;
 }
-.card::after {
+.show-card::after {
   content: '';
   position: absolute;
   right: -8px;
@@ -49,7 +49,10 @@
 .card-img-top {
   height: 230px;
 }
-.card-body a {
+.show-card-body {
+  border-radius: none;
+}
+.show-card-body a {
   background: #e5c558;
   color: #000;
   border-radius: 1px;
@@ -62,7 +65,7 @@
   text-decoration: none;
   margin: 15px 0;
 }
-.card-body a:hover {
+.show-card-body a:hover {
   text-decoration: none;
   color: #000;
   font-weight: 600;
