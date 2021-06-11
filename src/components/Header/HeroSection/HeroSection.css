@@ -159,3 +159,47 @@
   flex-grow: 0;
   margin: 0 auto;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+  .label-circles {
+    margin-left: 50px;
+  }
+  .content2,
+  .content3,
+  .content4 {
+    position: absolute;
+    left: 6.25%;
+    right: 26.23%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .label-circles {
+    margin-left: 50px;
+  }
+  .content2,
+  .content3,
+  .content4 {
+    position: absolute;
+    left: 6.25%;
+    right: 26.23%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .label-circles {
+    margin-left: 50px;
+  }
+  .content2,
+  .content3,
+  .content4 {
+    position: absolute;
+    left: 6.25%;
+    right: 26.23%;
+    top: 25%;
+  }
+}

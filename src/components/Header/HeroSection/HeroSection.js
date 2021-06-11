@@ -26,7 +26,7 @@ const HeroSection = () => {
           </div>
 
           <div className='container'>
-            <div className='row justify-content-center'>
+            <div className='row d-flex text-center mx-auto justify-content-center label-circles'>
               <div className='col-md-3 circle'>
                 <div className='circle1'>
                   <div className='text-center'>
