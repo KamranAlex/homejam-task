@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../../../images/homejam_logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -24,24 +26,38 @@ const Navbar = () => {
                 </button>
                 <div className='collapse navbar-collapse' id='navbarNav'>
                   <ul className='navbar-nav'>
-                    <li className='nav-item active'>
-                      <a className='nav-link' href='#'>
-                        Home <span className='sr-only'>(current)</span>
+                    <li className='nav-item'>
+                      <a className='nav-link' href='/'>
+                        <div className='d-flex'>
+                          <FontAwesomeIcon
+                            icon={faSearch}
+                            style={{
+                              color: '#FFF',
+                              fontSize: '14px',
+                              marginTop: '5px',
+                              marginRight: '5px'
+                            }}
+                          />
+                          Search
+                        </div>
                       </a>
                     </li>
                     <li className='nav-item'>
-                      <a className='nav-link' href='#'>
-                        Features
+                      <a className='nav-link' href='/'>
+                        Help
                       </a>
                     </li>
                     <li className='nav-item'>
-                      <a className='nav-link' href='#'>
-                        Pricing
+                      <a className='nav-link' href='/'>
+                        Account
                       </a>
                     </li>
                     <li className='nav-item'>
-                      <a className='nav-link disabled' href='#'>
-                        Disabled
+                      <a className='nav-link' href='/'>
+                        <FontAwesomeIcon
+                          icon={faShoppingBag}
+                          style={{ color: '#FFF', fontSize: '16px' }}
+                        />
                       </a>
                     </li>
                   </ul>

@@ -13,3 +13,11 @@
 .navbar img {
   height: 44px;
 }
+
+.nav-item {
+  margin: auto 0.75rem;
+}
+.nav-link {
+  color: #ffffff !important;
+  padding: 1rem;
+}
